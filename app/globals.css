@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-site-bg: #231e59;
+  --color-accent: #231e59;
+  --color-border-light: #ccc;
+}
+
+body {
+  margin: 0;
+  background: white;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+}
