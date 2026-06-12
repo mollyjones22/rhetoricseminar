@@ -26,7 +26,7 @@ export default function PosterPage() {
               download
               className="inline-block rounded-lg bg-[#231e59] px-6 py-3 text-base font-bold text-white no-underline transition-colors duration-300 hover:bg-black"
             >
-              Download Posters
+              Download Poster
             </a>
           </div>
         </div>
