@@ -29,7 +29,14 @@ export default function NewsPage() {
             International Society for the History of Rhetoric
           </p>
           <p className="mb-5">
-            Organizer: Ifigeneia Giannadaki (University of Florida)
+            Organizer:{" "}
+            <a
+              href="https://florida.academia.edu/IfigeneiaGiannadaki"
+              className="text-[#021263] underline hover:text-black"
+            >
+              Ifigeneia Giannadaki
+            </a>{" "}
+            (University of Florida)
           </p>
           <p>
             The fourth seminar in Greek Rhetoric, Law, and Society, organized by
