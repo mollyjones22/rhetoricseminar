@@ -23,7 +23,7 @@ export default function Home() {
           />
           <section
             aria-label="Seminar title"
-            className="absolute top-[62%] z-20 max-w-[calc(100vw-1.5rem)] -translate-y-1/2 font-sans leading-tight text-[#021263] sm:max-w-[calc(100vw-2rem)]"
+            className="absolute top-[56%] z-20 max-w-[calc(100vw-1.5rem)] -translate-y-1/2 font-sans leading-tight text-[#021263] sm:max-w-[calc(100vw-2rem)]"
             style={{
               left: "max(3rem, calc((100vw - 72rem) / 2 + 7rem))",
             }}
