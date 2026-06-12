@@ -13,8 +13,8 @@ export default function Home() {
       }}
     >
       <Navigation />
-      <div className="relative h-screen overflow-hidden sm:h-[150vh]">
-        <div className="pointer-events-none sticky top-1/2 z-10 -translate-y-1/2">
+      <div className="relative h-[150vh] overflow-hidden sm:h-[200vh]">
+        <div className="pointer-events-none sticky top-[56vh] z-10 -translate-y-1/2">
           <div className="relative aspect-[1937/1865] w-screen">
             <img
               src="/bgtitle.png"
@@ -26,7 +26,7 @@ export default function Home() {
               aria-label="Seminar title"
               className="absolute top-1/2 z-20 max-w-[calc(100vw-1.5rem)] -translate-y-1/2 font-sans leading-tight text-[#021263] sm:max-w-[calc(100vw-2rem)]"
               style={{
-                left: "max(0.75rem, calc((100vw - 72rem) / 2 + 1rem))",
+                left: "max(3rem, calc((100vw - 72rem) / 2 + 7rem))",
               }}
             >
               <h1 className="text-[11.2px] font-bold sm:text-[1.4rem] lg:whitespace-nowrap">
