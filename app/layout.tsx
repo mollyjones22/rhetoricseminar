@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Footer from "./components/Footer";
+import IconBand from "./components/IconBand";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -27,17 +28,7 @@ export default function RootLayout({
       <body className="flex min-h-screen flex-col bg-white text-black">
         <div className="relative flex-1">
           {children}
-          <div
-            aria-hidden="true"
-            className="pointer-events-none absolute bottom-0 top-20 z-20 hidden w-12 md:block"
-            style={{
-              right: "max(1rem, calc((100vw - 72rem) / 2 + 1rem))",
-              backgroundImage: "url('/iconbig.png')",
-              backgroundPosition: "top center",
-              backgroundRepeat: "repeat-y",
-              backgroundSize: "3rem auto",
-            }}
-          />
+          <IconBand />
         </div>
         <Footer />
       </body>
